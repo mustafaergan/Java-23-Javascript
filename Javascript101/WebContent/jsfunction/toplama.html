@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<script type="text/javascript">
+	function toplama() {
+		var deger1 = document.getElementById("deger1").value;
+		var deger2 = document.getElementById("deger2").value;
+		deger1 = Number(deger1);
+		deger2 = Number(deger2);
+		document.getElementById("myResult")
+		.innerHTML =deger1+deger2 ;
+
+	}
+// 	var y = 15;
+// 	var z = String(y);
+// 	var k = "10";
+// 	var kk = Number(k);
+</script>
+Deger 1 : <input type="text" 
+id="deger1"/>
+<br/>
+Deger 2 : <input type="text" 
+id ="deger2"/>
+<br/>
+<button onclick="toplama()">Topla</button>
+<p id = "myResult"></p>
+
+
+
+</body>
+</html>
