@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script src="https://ajax.googleapis.com/ajax
+/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+<body>
+<p class = "a">merhaba</p>
+<p id = "b">merhaba</p>
+<h1 class = "a">dunya</h1>
+<script type="text/javascript">
+function merhaba(){
+	$(this).hide();
+	console.log("b id")
+}
+$(".a").click(function(){
+	$(this).hide();
+	console.log("a class")
+});
+
+
+$("#b").click(merhaba);
+
+// $(document).ready(function(){
+// $("p").click(function(){
+//     console.log("merhaba");
+// });
+// });
+</script>
+
+
+</body>
+</html>

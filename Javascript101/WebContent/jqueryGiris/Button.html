@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script src="https://ajax.googleapis.com/ajax
+/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+<body>
+<button id ="myButton">yok et</button>
+<p>merhaba</p>
+<p>dunya</p>
+<button id ="myButtonClass">yok et class</button>
+<h2 class = "yoket">merhaba</h2>
+<h1 class = "yoket">dunya</h1>
+<button id ="myButtonGoster">goster</button>
+<script type="text/javascript">
+$("#myButton").click(function(){
+	$("p").hide();
+});
+
+$("#myButtonClass").click(function(){
+	$(".yoket").hide();
+});
+
+$("#myButtonGoster").click(function(){
+	$(".yoket").show();
+	$("p").show();
+});
+
+</script>
+</body>
+</html>

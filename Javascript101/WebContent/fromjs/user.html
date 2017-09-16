@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<p id = "myP"></p>
+<script type="text/javascript">
+var myURL = new URL(window.location.href);
+var myValue = myURL.searchParams.get("mahmut");
+document.getElementById("myP").innerHTML ="Selam "+ myValue;
+</script>
+
+</body>
+</html>

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<input type="text" id="myInput">
+<br/>
+<button onclick="topla()">topla</button>
+<br/>
+<p id = "myP"></p>
+<script type="text/javascript">
+toplam = 0;
+function topla() {
+	toplam += Number(document.getElementById("myInput").value);
+	document.getElementById("myP").innerHTML = toplam;
+}
+</script>
+</body>
+</html>

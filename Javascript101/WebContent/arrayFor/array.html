@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+
+<p id = "myP"></p>
+
+<script type="text/javascript">
+var toplamArray = [10,15,25];
+
+function topla(array){
+	var toplam = 0;
+	for (var int = 0; int < array.length; int++) {
+		toplam += array[int];
+	}
+	return toplam;
+}
+document.getElementById("myP").innerHTML = topla(toplamArray);
+</script>
+
+
+
+</body>
+</html>
